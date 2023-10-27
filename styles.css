@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.page-content{
+    background-color:#e7e6e1;
+    height:100vh;
+    width: 100vw;
+}
+.logo img{
+    width: 200px;
+    border-radius: 200px;
+    margin-top: 100px;
+    margin-left: 19%;
+    box-shadow: 8px 8px 10px #22B4BC;
+}
+main{
+    display:block;
+    text-align: center;
+}
+.title{
+    margin-top:4%;
+    margin-bottom: 4%;
+    color:#1d7798;
+    font-size: 15px;
+}
+.btn-contact{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4;
+    gap: 10px;
+    
+} 
+.btn-1, .btn-2, .btn-3, .btn-4{
+    height: 40px;
+    border-radius: 10px;
+    width: 60vw;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200;
+    font-size: 15px;
+    cursor:pointer;
+} 
+.btn{
+    color:#1d7798;
+    font-family: "montserrat";
+    text-decoration: none;
+    border: 2px solid  #22B4BC;
+    text-transform: uppercase;
+    transition: 1s all ease;
+} 
+.btn:hover{
+    background-color: rgb(60, 195, 188);
+    color:black;
+}
+footer{
+    padding-top: 10%;
+    color: #4f4f4f;
+}
+/* header{
+    background-color: aqua;
+}    
+main{
+    background-color: blueviolet;
+}
+footer{
+    background-color: yellow;
+} */
