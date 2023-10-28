@@ -14,12 +14,13 @@
     width: 200px;
     border-radius: 200px;
     margin-top: 100px;
-    margin-left: 19%;
+    margin-left: 20%;
     box-shadow: 8px 8px 10px #22B4BC;
 }
 main{
     display:block;
     text-align: center;
+    background-color:#e7e6e1;
 }
 .title{
     margin-top:4%;
@@ -61,12 +62,49 @@ footer{
     padding-top: 10%;
     color: #4f4f4f;
 }
-/* header{
-    background-color: aqua;
-}    
-main{
-    background-color: blueviolet;
+@media(min-width:768px) {
+    
+    .logo{
+        
+         margin-left: 21%;
+    }
+    .btn-1, .btn-2, .btn-3, .btn-4{
+        width: 30vw;
+        height: 40px;
+        border-radius: 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 200;
+        font-size: 15px;
+        cursor:pointer;
+    } 
+    footer{
+        padding-top: 5%;
+        color: #4f4f4f;
+    }
 }
-footer{
-    background-color: yellow;
-} */
+@media(min-width:1199px){
+   
+    .logo{
+        
+        margin-left: 29%;
+   }
+   .btn-1, .btn-2, .btn-3, .btn-4{
+       width: 15vw;
+       height: 40px;
+       border-radius: 10px;
+       font-family: 'Courier New', Courier, monospace;
+       font-weight: 200;
+       font-size: 15px;
+       cursor:pointer;
+   } 
+   footer{
+    padding-top: 2%;
+    color: #4f4f4f;
+    }
+    .title{
+    margin-top:2%;
+    margin-bottom: 2%;
+    color:#1d7798;
+    font-size: 15px;
+    }
+}
