@@ -1,6 +1,6 @@
 
 function btn1(){
-    window.open("");
+    window.open("https://api.whatsapp.com/send?phone=5531986661429");
 }
 function btn2(){
     window.open("https://www.youtube.com/@adhanjos");
